@@ -1,0 +1,232 @@
+
+
+.header {
+  position: relative;
+  background: url('pic1.jpg');
+  height: 800px;
+  color: #000000;
+  text-align: left;
+  padding-top: 50 px;
+  text-rendering: auto;
+  padding-left: 5%;
+
+}
+
+.nav-bar {
+  padding: 10px ;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: relative; 
+  top: 0; 
+  width: 100%;
+  z-index: 100;
+}
+
+.webpage-name {
+  font-weight: bold;
+  color: rgb(0, 0, 0); 
+  font-family: ;
+  font-size: 2em}
+
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0); 
+  text-decoration: none; 
+  text-transform: uppercase; 
+  transition: color 0.2s; }
+
+
+
+
+  .search-bar {
+    padding: 10px;
+    width: 200px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    outline: 2px solid transparent; 
+    transition: outline 0.2s; 
+}
+
+
+.search-bar:focus {
+    outline: 2px solid #3498db; 
+}
+
+.search-bar:hover {
+    outline: 2px solid #888; 
+}
+
+  .button{
+  padding: 10px 20px; 
+    margin: 10px; 
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    width :130px;}
+
+  
+        
+        .card-container {
+            display: flex;
+            gap: 20px; 
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.9); 
+            border-radius: 10px;
+            padding: 30px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.2s; 
+        }
+
+    
+        .card:hover {
+            transform: scale(1.05); 
+        }
+    
+        .card img {
+            border-radius: 10px; 
+            width: 100%;
+            height: auto;
+        }
+
+    
+        .card h3 {
+            margin: 10px 0 5px 0; 
+            font-size: 18px; 
+        }
+
+ 
+        .card .price {
+            font-size: 14px; 
+            color: gray; 
+        }
+
+       
+        .card button {
+            padding: 10px;
+            background-color: #000000; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s; 
+            width:100px;
+           align-items: center;
+        }
+
+
+        .card button:hover {
+            background-color: #2980b9; 
+     
+        }
+
+        .sec3 {
+          position: relative;
+          background: url('image\ \(1\).png');
+          height: 700px;
+          width: 100%;
+          color: #000000;
+          text-align: left;
+          padding-top: 1000 px;
+          text-rendering: auto;
+          text-align: right;
+          padding-right: 5%;
+        }
+         .Winter{
+          text-align: center;
+         }
+
+         .content {
+          display: flex; 
+          justify-content: space-between; 
+          align-items: center; 
+          padding: 20px; 
+          border: 1px solid rgb(250, 239, 221); 
+       color: rgb(255, 255, 255);
+          background-color: rgb(0, 0, 0);
+          padding-bottom: 30px;
+      }
+
+  
+      .top-section {
+        
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 20px; 
+       background-color: rgb(248, 241, 233);
+    }
+
+   
+ .heading{
+  font-size:xx-large;
+  font-weight: bold; rgb(248, 241, 233);
+ }
+    
+  
+    .bottom-section {
+        display: flex; 
+        justify-content: center; 
+        padding: 20px; 
+        background-color: rgb(248, 241, 233);
+    }
+
+    .button1{
+      padding-left: 70px;
+      padding-top: 50px;
+      border:none;
+      background-color: rgb(248, 241, 233);
+    }
+
+    .footer {
+      background-color: #000000;
+      color: white; 
+      padding: 20px; 
+      display: flex; 
+      align-items: center; 
+  }
+
+  .footer-left {
+      flex-basis: 100px; 
+      font-size: 2em; 
+  }
+
+  .footer-columns {
+      flex-grow: 1; 
+      display: flex; 
+      justify-content: center; 
+      gap: 40px; 
+  }
+
+  .footer-column {
+      display: flex;
+      flex-direction: column; 
+  }
+
+  .footer-column h3 {
+      font-weight: bold; 
+      margin-bottom: 10px; 
+  }
+
+  .footer-column a {
+      color: white; 
+      text-decoration: none; 
+      margin-bottom: 5px; 
+      transition: color 0.2s; 
+  }
+
+  .footer-column a:hover {
+      color: #3498db; 
+  }
